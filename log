@@ -1,0 +1,28 @@
+1. Add.php 
+    - Fixed the progress bar (inline css)
+    - Added file uploaded list
+
+2. banner.php added some js code (remove button)
+
+
+Warning: when move to server 
+- constant.js url should be change
+- config.php Libs path line 29 change to "/app/libs/"
+- ROOT change to ""
+- route.php delete an array_shift
+- database info
+
+
+
+
+remember 
+1. plist.php the checkbox should be remove(no function)
+2. banner slider preview (resize image)
+3. redirect account login page
+4. password validation (length)
+5. add in textarea add product page (description)
+6. add .htaccess at file folder
+
+
+skipped:
+1. mime type checking , because php version didn't support need >= 4.3
